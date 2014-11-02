@@ -1,0 +1,247 @@
+	/*Animaciones*/
+	@-webkit-keyframes amination{
+	0%   {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+}
+
+@keyframes amination{
+	0%   {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+}
+@-webkit-keyframes amination2{
+	0%   {transform:rotate(0deg);}
+    100% {transform:rotate(-360deg);}
+}
+
+@keyframes amination2{
+	0%   {transform:rotate(0deg);}
+    100% {transform:rotate(-360deg);}
+}
+@-webkit-keyframes amination3{
+	0%   {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+}
+
+@keyframes amination3{
+	0%   {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+}
+
+@media screen and (max-width:1200px){
+
+	 		 .Contenedor-logo{
+
+		margin: 0 -4.4em;
+		
+		
+		position: relative;
+		width: 100%;
+		height: 100px;
+		top: 100px;
+		text-align: center;	 
+		}
+
+		.Titulos{
+			display: inline-block; 
+            top: 6.5em; 
+            position: relative; 
+ 		}
+
+	
+}
+
+@media screen and (min-width:1200px){
+
+	 	
+.contenedor-logos {
+
+
+display: none;
+
+}
+	
+}
+
+
+
+ 		
+
+	body{
+			
+		}
+	.Contenedor-logo figure{
+		display: inline-block;	
+		margin: 0;
+		position: absolute;
+		width: 139px;
+		
+	}
+	.Contenedor-logo figure img{
+			position: relative;
+		top: 2px;
+		left: -1px;
+		width: 100%;
+		height:100%;
+	}
+	
+	header{
+		margin: 0;
+		width: 100%;
+		width: 100%;
+		height: 80px;
+		z-index: 1100;
+		
+	}
+	nav{
+		background: #070708;
+		padding: 0 5em 0 0.5em;
+		position: relative;
+		text-align: right;
+		opacity: 0.5;
+	}
+	nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+}
+	nav ul li {
+		display: inline-block;
+		margin: 0;
+	}
+	nav ul li a {
+		color: white;
+		display: block;
+		padding: 1.5em;
+		text-decoration: none;
+		-webkit-transition: 0.3s;
+		-moz-transition: 0.3s;
+		-ms-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+	}	
+	nav ul li a:hover {
+		background: #344B54;
+	}
+
+	.contenedor-logos {
+		display: table;
+		width: 100%;
+		height: 50%;
+		max-width: 40%;
+		margin: 0 auto;
+		}
+
+
+
+		.contenedor-itemlogos {
+		    display: table-cell;
+		    vertical-align: middle;
+		}
+		.Contenedor-logoImg{
+			position: relative;
+		float: right;
+		display: inline-block;
+		}
+		#Contenedor, body, html {
+				height: 100%;
+				}
+		.contenedorScroll {
+				overflow-y: scroll;
+				overflow-x: hidden;
+				width: 100%;
+				height: 100%;
+				margin: auto;
+	}
+
+	#Contenedor.contenedorScroll .contenidoScroll {
+				width: 100%;
+				height: auto;
+		}
+		.Contenedor-tema {
+						
+		}
+			
+		
+
+	
+		.Contenedor-logoTitulo{
+			font-size: 5em;
+		color: #fff;
+		margin: 20px 0 0;
+		padding: 0;
+		text-align: center;
+		}
+
+	 .Logo-parte1 img{
+		
+		-webkit-animation: amination 5s;
+		-moz-animation: amination 5s;
+		-ms-animation: amination 5s;
+		-o-animation: amination 5s;
+		animation: amination 5s;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		animation-iteration-count: infinite; 
+}
+	.Logo-parte2 img{
+		-webkit-animation: amination2 5s;
+		-moz-animation: amination2 5s;
+		-ms-animation: amination2 5s;
+		-o-animation: amination2 5s;
+		animation: amination2 5s;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		animation-iteration-count: infinite; 
+	}
+	.Logo-parte3 img{
+		-webkit-animation: amination3 5s;
+		-moz-animation: amination3 5s;
+		-ms-animation: amination3 5s;
+		-o-animation: amination3 5s;
+		animation: amination3 5s;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		animation-iteration-count: infinite; 
+    }
+	.Logo-parteB img{
+}
+	
+
+.home-banner, .home-img {
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.home-banner {
+overflow: hidden;
+z-index: -1;
+}
+.home-img-src {
+background-image: url(../img/milkyway1.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+height: 100%;
+}
+.home-img-textura {
+background-position: center center;
+height: 100%;
+z-index: 2;
+}
+.Titulos{
+	
+}
+section{
+	background: red;
+	width: 100%;
+	height: 200px;
+}
